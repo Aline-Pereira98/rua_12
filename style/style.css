@@ -209,7 +209,7 @@ body{
     font-weight: 400; 
 }
 
-/*@media (max-width: 1090px){
+@media (max-width: 1090px){
     .cabecalho{
         padding: 5%;
     }
@@ -226,7 +226,7 @@ body{
         width: auto;
     }
     .container_section_two{
-        width: auto;
+        justify-content: center;
     }
 
 }
