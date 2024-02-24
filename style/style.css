@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --color-orange: #FF7426;
+    --color-white: #F6F6F6;
+    --color-black: #000000;
+    --color-hover: #272727;
+
+    --font-primary:'Krona One', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.cabecalho{
+    padding: 3% 0% 0% 12%;
+}
+
+.cabecalho_nav{
+    display: flex;
+    gap: 70px;
+}
+
+.cabecalho_nav_link{
+    font-family: var(--font-primary);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-orange);
+    text-decoration: none;
+}
+
+.container{
+    padding: 5% 12% 15% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container_title{
+    font-size: 50px;
+    font-family: var(--font-primary)
+}
+
+.strong{
+    color: var(--color-orange);
+}
+
+.container_paragrafo{
+    margin-bottom: 10%;
+    font-size: 24px;
+    font-family: var(--font-secondary);
+}
+
+.container_redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.container_subtitle{
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.container_button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--color-orange);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20.5px 0;
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+    
+}
+
+.container_button:hover{
+    background-color: var(--color-hover);
+}
+
+/*.footer{
+    color: var(--color-black);
+    background-color: var(--color-orange);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+    font-weight: 400; 
+}*/
+
+.container_div{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: 32px;
+
+}
+
+.container_two_title{
+    --padding-top: 4%;
+    color: var(--color-orange);
+    font-size: 24px;
+    font-family: var(--font-primary)
+}
+
+.container_two_paragrafo{
+    font-size: 17px;
+    font-family: var(--font-secondary);
+}
+
+.container_paragrafo_two{
+    font-size: 24px;
+    font-family: var(--font-secondary);
+}
+
+.container_section_two{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container_title_name{
+    padding: 8% 0 0 0%;
+    color: var(--color-orange);
+    font-size: 24px;
+    font-family: var(--font-primary)
+
+}
+.container_div_imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.container_div_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.imagem_jogadora{
+    width: 230px;
+}
+
+.container_paragrafo_three{
+
+    width: 590px;
+    display: flex;
+    font-family: var(--font-secondary);
+}
+
+.container_button_div{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--color-orange);
+    width: 38%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px 0;
+    padding: 2% 2%;
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font-secondary);
+}
+
+.footer{
+    color: var(--color-black);
+    background-color: var(--color-orange);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+    font-weight: 400; 
+}
+
+/*@media (max-width: 1090px){
+    .cabecalho{
+        padding: 5%;
+    }
+    .cabecalho_nav{
+        justify-content: center;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .container_title{
+        padding-top: 10%;
+    }
+    .container_section{
+        width: auto;
+    }
+    .container_section_two{
+        width: auto;
+    }
+
+}
+
+
+
